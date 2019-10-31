@@ -64,6 +64,38 @@ class Dashboard extends Component {
 
                     
       </CardDeck>
+      
+      <div class='graphs'>
+<CardDeck>
+<Card>
+    <Card.Body >
+    <div class= 'img'>
+             <Card.Title><b>Bronze Licensed</b></Card.Title>
+            <Card.Text>
+                5 
+             </Card.Text>
+             <img  src={require('../assets/img/bronze.png')} width='65px'  />
+             </div>
+      
+    </Card.Body>
+  </Card>
+
+  <Card>
+    <Card.Body >
+    <div class= 'img'>
+             <Card.Title><b>Bronze Licensed</b></Card.Title>
+            <Card.Text>
+                5 
+             </Card.Text>
+             <img  src={require('../assets/img/bronze.png')} width='65px'  />
+             </div>
+      
+    </Card.Body>
+  </Card>
+    
+</CardDeck>
+
+  </div>
 
          </div>
          );
