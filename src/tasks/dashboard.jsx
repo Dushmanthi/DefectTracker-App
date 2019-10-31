@@ -24,6 +24,19 @@ class Dashboard extends Component {
       
     </Card.Body>
   </Card>
+                    
+     <Card>
+    <Card.Body >
+    <div class= 'img'>
+             <Card.Title><b>Platinum Licensed</b></Card.Title>
+            <Card.Text>
+                10
+             </Card.Text>
+             <img  src={require('../assets/img/platinum.png')} width='70px'  />
+             </div>
+      
+    </Card.Body>
+  </Card>
 
 
          </div>
